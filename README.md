@@ -52,7 +52,7 @@ Check out the live version of the app here:
 1. Clone the project:
 
 ```bash
-git clone https://github.com/your-username/SimpleUserPreview.git
+git clone https://github.com/AmirRiahi2008/simple-user-preview.git
 cd SimpleUserPreview
 
 npm install
