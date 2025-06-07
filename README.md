@@ -1,12 +1,61 @@
-# React + Vite
+# Simple User Preview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React project to preview user information by selecting user IDs.  
+This project fetches user data from a public API and displays details in a clean interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔍 Overview
 
-## Expanding the ESLint configuration
+**SimpleUserPreview** allows users to pick a user ID using radio buttons and preview that user's details.  
+It uses the [JSONPlaceholder](https://jsonplaceholder.typicode.com) API to fetch mock user data and display their name, email, username, and phone number.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- Fetch user data from an external API
+- Select a user using radio buttons
+- Show real-time user info
+- Display loading state while fetching
+- Show success toast message on data load
+
+---
+
+## ⚙️ Tech Stack
+
+- React (with `useState`, `useEffect`)
+- JavaScript (ES6+)
+- CSS (basic styles)
+- JSONPlaceholder API
+
+---
+
+## Screenshots
+
+Here is a preview of the app:
+
+![Quiz App Screenshot](./preview/screenshot.PNG)
+
+---
+
+## Live Demo
+
+Check out the live version of the app here:  
+[Live Demo in Vercel](https://simple-user-preview.vercel.app/)<br>
+[Live Demo in Netlify](https://simple-user-preview.netlify.app/)
+
+---
+
+## 🚀 Installation & Usage
+
+1. Clone the project:
+
+```bash
+git clone https://github.com/your-username/SimpleUserPreview.git
+cd SimpleUserPreview
+
+npm install
+
+npm run dev
+
